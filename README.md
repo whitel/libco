@@ -60,7 +60,7 @@
 
 - :small_airplane: epoll管理者: 都采用epoll的方式，对(IO事件/超时事件)2种事件进行监管
   - IO事件：epoll的fd事件监听
-- 超时事件（时间轮）：epoll的超时参数
+  - 超时事件（时间轮）：epoll的超时参数
 
 ---
 
