@@ -161,7 +161,7 @@ int main(){
 
 ---
 
-epoll实现的反应堆模式（与libevent中的epoll本质上没有任何差异），该模式非常常见，此处就不在敖述… 
+epoll实现的反应堆模式（与libevent中的epoll本质上没有任何差异），该模式非常常见，此处就不在赘述… 
 
 ### :slightly_smiling_face: co_eventloop 事件循环
 
