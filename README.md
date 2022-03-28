@@ -55,9 +55,6 @@
   - co_resume
     - 将co保存到pCallStack中
     - co_swap(curr, co) 切换到目标协程co，运行co绑定的协程函数
-
-----
-
 - :small_airplane: epoll管理者: 都采用epoll的方式，对(IO事件/超时事件)2种事件进行监管
   - IO事件：epoll的fd事件监听
   - 超时事件（时间轮）：epoll的超时参数
