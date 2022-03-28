@@ -173,12 +173,9 @@ epoll实现的反应堆模式（与libevent中的epoll本质上没有任何差�
 - 它的实现很简单，就是某个事件需要我来监管时，你就注册事件就绪的回调函数，然后调用co_epoll_ctl将事件安插到epoll中，之后，我调用epoll_wait获取就绪事件，然后，回调你注册的回调函数
 
 
-
----
+### :slightly_smiling_face: 条件变量
 
 libco的条件变量和其他的函数不太一样，它并不是简单的hook一下，而是根据libco的架构重新设计了一个协程版的条件变量。（条件变量的实现，与超时事件的实现类似）
-
-### :slightly_smiling_face: 条件变量
 
 :small_orange_diamond:co_cond_timedwait
 
